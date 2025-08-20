@@ -1,4 +1,9 @@
-export default function BoasVindas({ nome = "visitante" }) {
-  // 'nome' é prop: vem do pai; aqui não alteramos
-  return <h2>Bem-vindo, {nome}!</h2>;
+
+export default function BoasVindas({ nome, curso }) {
+  return (
+    <section>
+      <h2>Bem-vindo(a), {nome}!</h2>
+      <p>Curso: {curso}</p>
+    </section>
+  );
 }
