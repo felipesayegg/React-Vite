@@ -1,8 +1,8 @@
-import TextoDinamico from "./components/TextoDinamico";
+import MensagemLogin from "./components/MensagemLogin";
 export default function App() {
   return (
     <main style={{ fontFamily: "sans-serif", padding: 16 }}>
-      <TextoDinamico />
+      <MensagemLogin />
     </main>
   );
 }
